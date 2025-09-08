@@ -1,0 +1,85 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* ocupa a altura total da tela */
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.card {
+  max-width: 700px;
+  width: 100%;
+  min-height: 500px;
+  /*padding: 24px;*/
+}
+
+mat-card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+mat-card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+mat-card-subtitle {
+  font-size: 16px;
+  color: #666;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* espaço entre os campos */
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto; /* centraliza horizontalmente */
+}
+
+.form-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.checkbox {
+  margin: -26px -10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #3f51b5; /* cor padrão do Angular Material */
+  font-size: 14px;
+}
+
+.botao {
+  width: 100%;
+  min-width: 150px;
+  max-width: 500px;
+}
+.link2 {
+  text-decoration: none;
+}
+.paragrafo {
+  margin-top: 20px;
+}
+
+.mx-auto {
+  width: 250px;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .card {
+    max-width: 90%;
+    padding: 16px;
+  }
+}
