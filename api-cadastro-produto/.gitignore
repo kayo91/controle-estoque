@@ -4,7 +4,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-/api-cadastro-produto/bin/
+/bin/
 
 ### STS ###
 .apt_generated
